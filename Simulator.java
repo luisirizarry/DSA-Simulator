@@ -23,19 +23,22 @@ public class Simulator {
                 if(tempValue == null) {
                     arrayCache.put(name, value);
                 }
-
+                // print the cache
                 System.out.println(arrayCache.toString());
             }
-
+            // close the scanner
             scanner.close();
         }
 
     }
 
+    // printStats method
     private void printStats(ArrayCache arrayCache) {
+        // calculate the hit rate and miss rate
         double hitRate = (double) arrayCache.getNumHits() / (arrayCache.getNumHits() + arrayCache.getNumMisses()) * 100;
         double missRate = (double) arrayCache.getNumMisses() / (arrayCache.getNumHits() + arrayCache.getNumMisses()) * 100;
         
+        // print the hit rate and miss rate
         System.out.printf("Hit Rate: %.2f%%\n", hitRate);
         System.out.printf("Miss Rate: %.2f%%\n", missRate);
     }
@@ -44,8 +47,10 @@ public class Simulator {
     public static void main(String[] args) {
         String queryFile;
         int cacheSize;
+        // create a scanner
         Scanner scanner = new Scanner(System.in);
 
+        // get the query file and cache size from the user, if the cache size is negative, ask again
         do {
             System.out.println("Enter the name of the query file: ");
             queryFile = scanner.nextLine();
@@ -57,14 +62,15 @@ public class Simulator {
 
         scanner.close();
 
-        System.out.println("Query File: " + queryFile);
-        System.out.println("Cache Size: " + cacheSize);
+        // create a new ArrayCache and Simulator object
         ArrayCache arrayCache1 = new ArrayCache(cacheSize);
         Simulator simulator1 = new Simulator();
+        // call the simulate and printStats methods
         try {
             simulator1.simulate(arrayCache1, queryFile);
             simulator1.printStats(arrayCache1);
         } catch (FileNotFoundException e) {
+            // print an error message if the file is not found
             System.out.println("File not found");
         }
     }

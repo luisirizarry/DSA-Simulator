@@ -40,15 +40,19 @@ public class ArrayCache {
 
     // get method
     public String get(String name) {
+        // search for the entry with the name
         for (int i = 0; i < entries.length; i++) {
             if (entries[i] != null && entries[i].getName().equals(name)) {
+                // if found, shift the entries and put the found entry at the start
                 CacheEntry savedEntry = entries[i];
                 shiftEntries(i);
                 entries[0] = savedEntry;
+                // increment the number of hits and return the value
                 numHits++;
                 return entries[0].getValue();
             }
         }
+        // if not found, increment the number of misses and return null
         numMisses++;
         return null;
     }
