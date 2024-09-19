@@ -1,0 +1,262 @@
+Please enter query file name: data/queries1.txt
+Please enter a positive cache size: 5
+ Entries: 1
+    Hits: 0
+  Misses: 1
+Name: amazon.com Value: 54.239.28.85
+
+ Entries: 2
+    Hits: 0
+  Misses: 2
+Name: wikipedia.com Value: 208.80.154.232
+Name: amazon.com Value: 54.239.28.85
+
+ Entries: 3
+    Hits: 0
+  Misses: 3
+Name: instagram.com Value: 31.13.65.174
+Name: wikipedia.com Value: 208.80.154.232
+Name: amazon.com Value: 54.239.28.85
+
+ Entries: 3
+    Hits: 1
+  Misses: 3
+Name: instagram.com Value: 31.13.65.174
+Name: wikipedia.com Value: 208.80.154.232
+Name: amazon.com Value: 54.239.28.85
+
+ Entries: 4
+    Hits: 1
+  Misses: 4
+Name: soundcloud.com Value: 65.8.20.80
+Name: instagram.com Value: 31.13.65.174
+Name: wikipedia.com Value: 208.80.154.232
+Name: amazon.com Value: 54.239.28.85
+
+ Entries: 5
+    Hits: 1
+  Misses: 5
+Name: yahoo.com Value: 74.6.143.25
+Name: soundcloud.com Value: 65.8.20.80
+Name: instagram.com Value: 31.13.65.174
+Name: wikipedia.com Value: 208.80.154.232
+Name: amazon.com Value: 54.239.28.85
+
+ Entries: 5
+    Hits: 2
+  Misses: 5
+Name: soundcloud.com Value: 65.8.20.80
+Name: yahoo.com Value: 74.6.143.25
+Name: instagram.com Value: 31.13.65.174
+Name: wikipedia.com Value: 208.80.154.232
+Name: amazon.com Value: 54.239.28.85
+
+ Entries: 5
+    Hits: 2
+  Misses: 6
+Name: imdb.com Value: 52.94.225.248
+Name: soundcloud.com Value: 65.8.20.80
+Name: yahoo.com Value: 74.6.143.25
+Name: instagram.com Value: 31.13.65.174
+Name: wikipedia.com Value: 208.80.154.232
+
+ Entries: 5
+    Hits: 2
+  Misses: 7
+Name: apple.com Value: 17.253.144.10
+Name: imdb.com Value: 52.94.225.248
+Name: soundcloud.com Value: 65.8.20.80
+Name: yahoo.com Value: 74.6.143.25
+Name: instagram.com Value: 31.13.65.174
+
+ Entries: 5
+    Hits: 2
+  Misses: 8
+Name: merrimack.edu Value: 35.169.127.66
+Name: apple.com Value: 17.253.144.10
+Name: imdb.com Value: 52.94.225.248
+Name: soundcloud.com Value: 65.8.20.80
+Name: yahoo.com Value: 74.6.143.25
+
+ Entries: 5
+    Hits: 2
+  Misses: 9
+Name: acm.org Value: 104.17.78.30
+Name: merrimack.edu Value: 35.169.127.66
+Name: apple.com Value: 17.253.144.10
+Name: imdb.com Value: 52.94.225.248
+Name: soundcloud.com Value: 65.8.20.80
+
+ Entries: 5
+    Hits: 2
+  Misses: 10
+Name: facebook.com Value: 157.240.220.35
+Name: acm.org Value: 104.17.78.30
+Name: merrimack.edu Value: 35.169.127.66
+Name: apple.com Value: 17.253.144.10
+Name: imdb.com Value: 52.94.225.248
+
+ Entries: 5
+    Hits: 2
+  Misses: 11
+Name: google.com Value: 142.250.80.110
+Name: facebook.com Value: 157.240.220.35
+Name: acm.org Value: 104.17.78.30
+Name: merrimack.edu Value: 35.169.127.66
+Name: apple.com Value: 17.253.144.10
+
+ Entries: 5
+    Hits: 3
+  Misses: 11
+Name: facebook.com Value: 157.240.220.35
+Name: google.com Value: 142.250.80.110
+Name: acm.org Value: 104.17.78.30
+Name: merrimack.edu Value: 35.169.127.66
+Name: apple.com Value: 17.253.144.10
+
+ Entries: 5
+    Hits: 3
+  Misses: 12
+Name: xkcd.com Value: 151.101.192.67
+Name: facebook.com Value: 157.240.220.35
+Name: google.com Value: 142.250.80.110
+Name: acm.org Value: 104.17.78.30
+Name: merrimack.edu Value: 35.169.127.66
+
+ Entries: 5
+    Hits: 3
+  Misses: 13
+Name: soundcloud.com Value: 65.8.20.80
+Name: xkcd.com Value: 151.101.192.67
+Name: facebook.com Value: 157.240.220.35
+Name: google.com Value: 142.250.80.110
+Name: acm.org Value: 104.17.78.30
+
+ Entries: 5
+    Hits: 4
+  Misses: 13
+Name: soundcloud.com Value: 65.8.20.80
+Name: xkcd.com Value: 151.101.192.67
+Name: facebook.com Value: 157.240.220.35
+Name: google.com Value: 142.250.80.110
+Name: acm.org Value: 104.17.78.30
+
+ Entries: 5
+    Hits: 5
+  Misses: 13
+Name: facebook.com Value: 157.240.220.35
+Name: soundcloud.com Value: 65.8.20.80
+Name: xkcd.com Value: 151.101.192.67
+Name: google.com Value: 142.250.80.110
+Name: acm.org Value: 104.17.78.30
+
+ Entries: 5
+    Hits: 5
+  Misses: 14
+Name: twitter.com Value: 104.244.42.129
+Name: facebook.com Value: 157.240.220.35
+Name: soundcloud.com Value: 65.8.20.80
+Name: xkcd.com Value: 151.101.192.67
+Name: google.com Value: 142.250.80.110
+
+ Entries: 5
+    Hits: 5
+  Misses: 15
+Name: yahoo.com Value: 74.6.143.25
+Name: twitter.com Value: 104.244.42.129
+Name: facebook.com Value: 157.240.220.35
+Name: soundcloud.com Value: 65.8.20.80
+Name: xkcd.com Value: 151.101.192.67
+
+ Entries: 5
+    Hits: 6
+  Misses: 15
+Name: yahoo.com Value: 74.6.143.25
+Name: twitter.com Value: 104.244.42.129
+Name: facebook.com Value: 157.240.220.35
+Name: soundcloud.com Value: 65.8.20.80
+Name: xkcd.com Value: 151.101.192.67
+
+ Entries: 5
+    Hits: 7
+  Misses: 15
+Name: soundcloud.com Value: 65.8.20.80
+Name: yahoo.com Value: 74.6.143.25
+Name: twitter.com Value: 104.244.42.129
+Name: facebook.com Value: 157.240.220.35
+Name: xkcd.com Value: 151.101.192.67
+
+ Entries: 5
+    Hits: 7
+  Misses: 16
+Name: rottentomatoes.com Value: 23.5.230.249
+Name: soundcloud.com Value: 65.8.20.80
+Name: yahoo.com Value: 74.6.143.25
+Name: twitter.com Value: 104.244.42.129
+Name: facebook.com Value: 157.240.220.35
+
+ Entries: 5
+    Hits: 7
+  Misses: 17
+Name: espn.com Value: 65.8.20.23
+Name: rottentomatoes.com Value: 23.5.230.249
+Name: soundcloud.com Value: 65.8.20.80
+Name: yahoo.com Value: 74.6.143.25
+Name: twitter.com Value: 104.244.42.129
+
+ Entries: 5
+    Hits: 7
+  Misses: 18
+Name: apple.com Value: 17.253.144.10
+Name: espn.com Value: 65.8.20.23
+Name: rottentomatoes.com Value: 23.5.230.249
+Name: soundcloud.com Value: 65.8.20.80
+Name: yahoo.com Value: 74.6.143.25
+
+ Entries: 5
+    Hits: 7
+  Misses: 19
+Name: xkcd.com Value: 151.101.192.67
+Name: apple.com Value: 17.253.144.10
+Name: espn.com Value: 65.8.20.23
+Name: rottentomatoes.com Value: 23.5.230.249
+Name: soundcloud.com Value: 65.8.20.80
+
+ Entries: 5
+    Hits: 7
+  Misses: 20
+Name: acm.org Value: 104.17.78.30
+Name: xkcd.com Value: 151.101.192.67
+Name: apple.com Value: 17.253.144.10
+Name: espn.com Value: 65.8.20.23
+Name: rottentomatoes.com Value: 23.5.230.249
+
+ Entries: 5
+    Hits: 8
+  Misses: 20
+Name: espn.com Value: 65.8.20.23
+Name: acm.org Value: 104.17.78.30
+Name: xkcd.com Value: 151.101.192.67
+Name: apple.com Value: 17.253.144.10
+Name: rottentomatoes.com Value: 23.5.230.249
+
+ Entries: 5
+    Hits: 8
+  Misses: 21
+Name: merrimack.edu Value: 35.169.127.66
+Name: espn.com Value: 65.8.20.23
+Name: acm.org Value: 104.17.78.30
+Name: xkcd.com Value: 151.101.192.67
+Name: apple.com Value: 17.253.144.10
+
+ Entries: 5
+    Hits: 8
+  Misses: 22
+Name: youtube.com Value: 172.217.165.142
+Name: merrimack.edu Value: 35.169.127.66
+Name: espn.com Value: 65.8.20.23
+Name: acm.org Value: 104.17.78.30
+Name: xkcd.com Value: 151.101.192.67
+
+ Hit Rate: 26.67%
+Miss Rate: 73.33%
